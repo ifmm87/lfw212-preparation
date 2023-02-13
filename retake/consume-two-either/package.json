@@ -1,0 +1,17 @@
+{
+  "name": "consume-two-either",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "PORT=3000 BRAND_PORT=6000 COLOR_PORT=5000 node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.3.2",
+    "express": "^4.18.2"
+  }
+}
